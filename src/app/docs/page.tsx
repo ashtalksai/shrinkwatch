@@ -30,6 +30,8 @@ import {
   Award
 } from "lucide-react";
 
+const CROSS_PATTERN_BG = "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")";
+
 const sections = [
   { id: "research", label: "Research", icon: BarChart3 },
   { id: "gtm", label: "GTM Plan", icon: Target },
@@ -193,7 +195,7 @@ export default function DocsPage() {
           <div className="max-w-5xl mx-auto">
             {/* Hero */}
             <div className="relative rounded-3xl bg-gradient-to-br from-[#FF6B35]/20 via-[#EF4444]/10 to-[#FBBF24]/20 p-8 lg:p-12 mb-8 overflow-hidden">
-              <div className="absolute inset-0 opacity-20" style={{backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")"}}" />
+              <div className="absolute inset-0 opacity-20" style={{backgroundImage: CROSS_PATTERN_BG}} />
               <div className="relative">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF6B35]/20 text-[#FF6B35] text-sm font-medium mb-4">
                   <BarChart3 size={14} />
@@ -396,7 +398,7 @@ export default function DocsPage() {
           <div className="max-w-5xl mx-auto">
             {/* Hero */}
             <div className="relative rounded-3xl bg-gradient-to-br from-[#FBBF24]/20 via-[#FF6B35]/10 to-[#EF4444]/20 p-8 lg:p-12 mb-8 overflow-hidden">
-              <div className="absolute inset-0 opacity-20" style={{backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")"}}" />
+              <div className="absolute inset-0 opacity-20" style={{backgroundImage: CROSS_PATTERN_BG}} />
               <div className="relative">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FBBF24]/20 text-[#FBBF24] text-sm font-medium mb-4">
                   <Target size={14} />
@@ -601,7 +603,7 @@ export default function DocsPage() {
           <div className="max-w-5xl mx-auto">
             {/* Hero */}
             <div className="relative rounded-3xl bg-gradient-to-br from-[#EF4444]/20 via-[#FF6B35]/10 to-[#FBBF24]/20 p-8 lg:p-12 mb-8 overflow-hidden">
-              <div className="absolute inset-0 opacity-20" style={{backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")"}}" />
+              <div className="absolute inset-0 opacity-20" style={{backgroundImage: CROSS_PATTERN_BG}} />
               <div className="relative">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#EF4444]/20 text-[#EF4444] text-sm font-medium mb-4">
                   <Megaphone size={14} />
@@ -774,7 +776,7 @@ export default function DocsPage() {
           <div className="max-w-5xl mx-auto">
             {/* Hero */}
             <div className="relative rounded-3xl bg-gradient-to-br from-[#FF6B35]/30 via-[#EF4444]/20 to-[#FBBF24]/30 p-8 lg:p-12 mb-8 overflow-hidden">
-              <div className="absolute inset-0 opacity-20" style={{backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")"}}" />
+              <div className="absolute inset-0 opacity-20" style={{backgroundImage: CROSS_PATTERN_BG}} />
               <div className="relative">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/50 text-[#1A1A1A] text-sm font-medium mb-4">
                   <Palette size={14} />
